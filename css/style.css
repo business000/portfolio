@@ -468,6 +468,20 @@ main {
     background-color: #e5e7e8;
 }
 
+#works_page description h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#works_page description p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 10px;
+}
+
 #works_page h3 {
     font-family: 'Noto Serif JP', sans-serif;
 }
@@ -676,7 +690,7 @@ footer {
     color: #fff;
 }
 
-/*IE11対策用バーの線の高さ※対応しなければ削除してください*/
+/*IE11対策用バーの線の高さ*/
 #splash_text svg {
     height: 2px;
 }
